@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F59F67752044F3FD000D7CE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F59F67742044F3FD000D7CE0 /* main.c */; };
+		F59F677E2044F7BE000D7CE0 /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = F59F677D2044F7BE000D7CE0 /* loader.c */; };
+		F59F67812044FCE5000D7CE0 /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = F59F67802044FCE5000D7CE0 /* cpu.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,12 @@
 /* Begin PBXFileReference section */
 		F59F67712044F3FD000D7CE0 /* Ardemu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ardemu; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59F67742044F3FD000D7CE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F59F677B2044F4E9000D7CE0 /* cpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
+		F59F677C2044F7BE000D7CE0 /* loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loader.h; sourceTree = "<group>"; };
+		F59F677D2044F7BE000D7CE0 /* loader.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = loader.c; sourceTree = "<group>"; };
+		F59F677F2044FB86000D7CE0 /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		F59F67802044FCE5000D7CE0 /* cpu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cpu.c; sourceTree = "<group>"; };
+		F59F678220450283000D7CE0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				F59F67742044F3FD000D7CE0 /* main.c */,
+				F59F677B2044F4E9000D7CE0 /* cpu.h */,
+				F59F677C2044F7BE000D7CE0 /* loader.h */,
+				F59F677D2044F7BE000D7CE0 /* loader.c */,
+				F59F677F2044FB86000D7CE0 /* util.h */,
+				F59F67802044FCE5000D7CE0 /* cpu.c */,
+				F59F678220450283000D7CE0 /* README.md */,
 			);
 			path = Ardemu;
 			sourceTree = "<group>";
@@ -119,6 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59F67812044FCE5000D7CE0 /* cpu.c in Sources */,
+				F59F677E2044F7BE000D7CE0 /* loader.c in Sources */,
 				F59F67752044F3FD000D7CE0 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
