@@ -49,6 +49,7 @@
 		F59F67682044F3FD000D7CE0 = {
 			isa = PBXGroup;
 			children = (
+				F59F678220450283000D7CE0 /* README.md */,
 				F59F67732044F3FD000D7CE0 /* Ardemu */,
 				F59F67722044F3FD000D7CE0 /* Products */,
 			);
@@ -71,7 +72,6 @@
 				F59F677D2044F7BE000D7CE0 /* loader.c */,
 				F59F677F2044FB86000D7CE0 /* util.h */,
 				F59F67802044FCE5000D7CE0 /* cpu.c */,
-				F59F678220450283000D7CE0 /* README.md */,
 			);
 			path = Ardemu;
 			sourceTree = "<group>";
